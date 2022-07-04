@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<%- include('./partials/header.ejs') %>
+
+<body>
+<%- include('./partials/nav.ejs') %>
+
+
+<% if(blog.length > 0) {%>
+
+    <% blog.forEach(post => {%>
+        <div class="blogheader">
+            <a href="/blogs/<%= post._id %>">
+                <h2><%= post.title %></h2>
+                <h5><%= post.snippet %></h5>
+                <span><%= post.createdAt %></span>
+            </a>
+        </div>
+        
+
+    <% }) %>
+
+<% } %>
+
+
+
+
+<%- include('./partials/footer.ejs') %>
+</body>
+</html>
