@@ -154,3 +154,18 @@ footer{
 footer{
     clear: both;
 }
+
+
+/* index styling */
+
+.blogheader p{
+    width: 60%;
+    font-size: 17px;
+}
+
+.blogheader span{
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 10px;
+    color: crimson;
+}
