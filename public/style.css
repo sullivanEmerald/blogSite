@@ -165,7 +165,13 @@ footer{
 
 .blogheader span{
     font-size: 15px;
-    display: inline-block;
+    display: block;
     margin-top: 10px;
     color: crimson;
+}
+
+.fa-thumbs-up{
+    display: inline-block;
+    color: cornflowerblue;
+    font-size: 20px;
 }
